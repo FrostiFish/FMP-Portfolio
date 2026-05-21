@@ -9,3 +9,7 @@ theme = 'minimal-black'
   
   [params.theme]
     defaultTheme = "dark"  # or "light" or "system"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
