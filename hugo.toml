@@ -1,0 +1,11 @@
+baseURL = 'https://hannah.eikens.com/'
+locale = 'en-nl'
+title = 'FMP Portfolio'
+theme = 'minimal-black'
+
+[params]
+  brand = "Hannah Eikens"
+  description = "This website provides an overview of my past academic projects, present graduation project and future projects relating to interface design, music and open source technologies"
+  
+  [params.theme]
+    defaultTheme = "dark"  # or "light" or "system"
