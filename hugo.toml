@@ -193,9 +193,9 @@ theme = 'minimal-black'
 
   # Hero Section Configuration
   [params.hero]
-    badge = "Software Engineer"
-    title = "Hi, I'm Hannah"
-    role = "Digital Luthier and Computation Designer"
+    badge = "Computational Designer"
+    title = "Hannah Eikens"
+    role = "A Designer Specializing in Interactive Technologies, Digital Fabrication and Embedded Software Development"
     summary = "You can write your summary to be displayed here."
     # avatar = "images/avatar.jpg"  # Optional: 400x400px recommended
     location = "Eindhoven, The Netherlands"
@@ -206,7 +206,7 @@ theme = 'minimal-black'
     nowLabel = "Quick Facts"
     nowIntro = "Right now I'm mainly:"
     now = [
-      "Building embedded MIDI devices",
+      "Building physical MIDI devices",
       "Exploring hall effect sensing for musical expression",
       "Developing Raspberry Pi Pico projects and Arduino libraries"
     ]
