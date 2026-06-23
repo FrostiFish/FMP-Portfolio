@@ -23,11 +23,11 @@ theme = 'minimal-black'
 
   # Favicon - Place your favicon files in /static/ directory
   # Supported formats: .ico, .png, .svg
-  favicon = "icons/favicon.svg"
-  appleTouchIcon = "apple-touch-icon.png"
+  # favicon = "icons/favicon.svg"
+  # appleTouchIcon = "apple-touch-icon.png"
 
   # Logo (optional)
-  logo = "images/logo.png"
+  # logo = "images/logo.png"
 
   # Project and blog intro text
   projectsIntro = "Selected projects to display list." # Can be empty
@@ -35,7 +35,7 @@ theme = 'minimal-black'
 
   # Web App Manifest Configuration (PWA support)
   [params.manifest]
-    themeColor = "#a855f7"
+    themeColor = "#ffffff"
     backgroundColor = "#000000"
     categories = ["blog", "portfolio", "developer"]
 
@@ -53,7 +53,7 @@ theme = 'minimal-black'
 
   # Home Page Configuration
   [params.home]
-    sections = ["hero", "now", "projects", "posts", "tech-marquee"]
+    sections = ["hero", "now", "projects", "tech-marquee"]
     showNowSection = true
     showFeaturedProjects = true
     showLatestPosts = true
@@ -207,7 +207,7 @@ theme = 'minimal-black'
     badge = "Design Engineer and Researcher"
     title = "Hannah Eikens"
     role = "A Designer Specializing in Interactive Technologies, Digital Fabrication and Embedded Software Development"
-    summary = "You can write your summary to be displayed here."
+    # summary = "You can write your summary to be displayed here."
     # avatar = "images/avatar.jpg"  # Optional: 400x400px recommended
     location = "Eindhoven, The Netherlands"
     focus = "Currently focused on developing MIDI interfaces"
@@ -300,10 +300,19 @@ theme = 'minimal-black'
       icon = "fa-regular fa-compass"
 
   [[menu.main]]
+    name = "Past"
+    pageRef = "past"
+    url = "/past/"
+    weight = 3
+    identifier = "past"
+    [menu.main.params]
+      icon = "fa-solid fa-hands-holding-circle"
+
+  [[menu.main]]
     name = "Expertise Areas"
     pageRef = "expertise-areas"
     url = "/expertise-areas/"
-    weight = 3
+    weight = 4
     identifier = "expertise-areas"
     [menu.main.params]
       icon = "fa-solid fa-toolbox"
@@ -312,37 +321,37 @@ theme = 'minimal-black'
     name = "Future"
     pageRef = "future"
     url = "/future/"
-    weight = 4
+    weight = 5
     identifier = "future"
     [menu.main.params]
       icon = "fa-solid fa-binoculars"
 
-  [[menu.main]]
-    name = "About"
-    pageRef = "about"
-    url = "/about/"
-    weight = 5
-    identifier = "about"
-    [menu.main.params]
-      icon = "fa-solid fa-user"
+#  [[menu.main]]
+#    name = "About"
+#    pageRef = "about"
+#    url = "/about/"
+#    weight = 6
+#    identifier = "about"
+#    [menu.main.params]
+#      icon = "fa-solid fa-user"
 
   [[menu.main]]
     name = "Projects"
     pageRef = "projects"
     url = "/projects/"
-    weight = 6
+    weight = 7
     identifier = "projects"
     [menu.main.params]
       icon = "fa-regular fa-folder-open"
 
-  [[menu.main]]
-    name = "Blog"
-    pageRef = "blog"
-    url = "/blog/"
-    weight = 7
-    identifier = "blog"
-    [menu.main.params]
-      icon = "fa-regular fa-note-sticky"
+#  [[menu.main]]
+#    name = "Blog"
+#    pageRef = "blog"
+#    url = "/blog/"
+#    weight = 8
+#    identifier = "blog"
+#    [menu.main.params]
+#      icon = "fa-regular fa-note-sticky"
 
 # Markup Configuration
 [markup]
