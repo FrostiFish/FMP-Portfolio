@@ -4,7 +4,8 @@ date = '2026-06-20T09:00:00+02:00'
 draft = false
 +++
 
-I've always been very curious about technolgy from a young age. 
+## Bachelor Industrial Design
+I've been very curious about technolgy from a young age. 
 I was always surrounded by music technology in my dad's home studio introduced me to the music production process, but through his job as a software engineer I caught glimpses of software engineering. 
 Before starting the Industrial Design Master, and even before the Industrial Design Bachelor I already new I wanted to go into technical education. 
 During highschool I contemplated about studying chemistry, but changed my mind and decided to pursue computer science, only to change my mind again later. 
