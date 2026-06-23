@@ -18,6 +18,9 @@ theme = 'minimal-black'
   brand = "Hannah Eikens"
   description = "A portfolio website demonstrating my academic work, as well as my projects combining music and technology"
 
+  # Theme credit link shown in the footer ("Built with Hugo / Minimal Black")
+  themeGit = "https://gitlab.com/jimchr12/hugo-minimal-black"
+
   # Favicon - Place your favicon files in /static/ directory
   # Supported formats: .ico, .png, .svg
   favicon = "icons/favicon.svg"
@@ -50,7 +53,7 @@ theme = 'minimal-black'
 
   # Home Page Configuration
   [params.home]
-    sections = ["hero", "now", "tech-marquee", "projects", "posts"]
+    sections = ["hero", "now", "projects", "posts", "tech-marquee"]
     showNowSection = true
     showFeaturedProjects = true
     showLatestPosts = true
@@ -89,67 +92,75 @@ theme = 'minimal-black'
 
     [[params.home.tech]]
       label = "MIDI"
-      icon = "simpleicon-midi"
+      icon = "fa-solid fa-music"
 
     [[params.home.techReverse]]
-      label = "PostgreSQL"
-      icon = "devicon-postgresql-plain"
+      label = "Autodesk Fusion"
+      icon = "devicon-fusion-plain"
 
     [[params.home.techReverse]]
-      label = "MongoDB"
-      icon = "devicon-mongodb-plain"
+      label = "Anaconda"
+      icon = "devicon-anaconda-plain"
 
     [[params.home.techReverse]]
       label = "Git"
       icon = "devicon-git-plain"
 
     [[params.home.techReverse]]
-      label = "Hugo"
-      icon = "devicon-hugo-plain"  
+      label = "Blender"
+      icon = "devicon-blender-original"  
 
     [[params.home.techReverse]]
-      label = "Jenkins"
-      icon = "devicon-jenkins-plain"   
+      label = "VS Code"
+      icon = "devicon-vscode-plain"   
 
     [[params.home.techReverse]]
-      label = "JetBrains"
-      icon = "devicon-jetbrains-plain" 
+      label = "Embedded C"
+      icon = "devicon-embeddedc-plain" 
 
     [[params.home.techReverse]]
-      label = "Json"
-      icon = "devicon-json-plain" 
+      label = "C"
+      icon = "devicon-c-plain" 
 
     [[params.home.techReverse]]
-      label = "Linux"
-      icon = "devicon-linux-plain"          
+      label = "GitHub"
+      icon = "devicon-github-plain"          
 
     [[params.home.techReverse]]
-      label = "Liquibase"
-      icon = "devicon-liquibase-plain" 
+      label = "Jupyter"
+      icon = "devicon-jupyter-plain" 
 
     [[params.home.techReverse]]
-      label = "Markdown"
-      icon = "devicon-markdown-original"  
+      label = "PlatformIO"
+      icon = "fa-solid fa-microchip"  
 
     [[params.home.techReverse]]
-      label = "YAML"
-      icon = "devicon-yaml-plain"  
+      label = "Pico-SDK"
+      icon = "fa-solid fa-microchip"  
 
     [[params.home.techReverse]]
-      label = "Wordpress"
-      icon = "devicon-wordpress-plain"
+      label = "I2C"
+      icon = "fa-solid fa-network-wired"  
 
     [[params.home.techReverse]]
-      label = "WooCommerce"
-      icon = "devicon-woocommerce-plain"            
+      label = "SPI"
+      icon = "fa-solid fa-network-wired"
 
     [[params.home.techReverse]]
-      label = "Traefik"
-      icon = "devicon-traefikproxy-plain" 
+      label = "UART"
+      icon = "fa-solid fa-network-wired"            
 
     [[params.home.techReverse]]
-      label = "pfSense"
-      icon = "devicon-pfsense-plain"       
+      label = "Orca Slicer"
+      icon = "fa-solid fa-print" 
+
+    [[params.home.techReverse]]
+      label = "Cura Slicer"
+      icon = "fa-solid fa-print"       
+
+    [[params.home.techReverse]]
+      label = "KiCad"
+      icon = "fa-solid fa-microchip"  
 
   # About Page Alternative Layout Configuration - Optional
   [params.about.alt]
@@ -193,7 +204,7 @@ theme = 'minimal-black'
 
   # Hero Section Configuration
   [params.hero]
-    badge = "Computational Designer"
+    badge = "Design Engineer and Researcher"
     title = "Hannah Eikens"
     role = "A Designer Specializing in Interactive Technologies, Digital Fabrication and Embedded Software Development"
     summary = "You can write your summary to be displayed here."
@@ -223,7 +234,6 @@ theme = 'minimal-black'
   [params.icons]
     useFontAwesome = true
     useDevicon = true
-    useMdi = true
 
   # Social Links
   [[params.social]]
@@ -281,20 +291,38 @@ theme = 'minimal-black'
       icon = "fa-solid fa-house"
 
   [[menu.main]]
+    name = "Vision & Identity"
+    pageRef = "vision-identity"
+    url = "/vision-identity/"
+    weight = 2
+    identifier = "vision-identity"
+    [menu.main.params]
+      icon = "fa-regular fa-compass"
+
+  [[menu.main]]
+    name = "Expertise Areas"
+    pageRef = "expertise-areas"
+    url = "/expertise-areas/"
+    weight = 3
+    identifier = "expertise-areas"
+    [menu.main.params]
+      icon = "fa-solid fa-toolbox"
+
+  [[menu.main]]
+    name = "Future"
+    pageRef = "future"
+    url = "/future/"
+    weight = 4
+    identifier = "future"
+    [menu.main.params]
+      icon = "fa-solid fa-binoculars"
+
+  [[menu.main]]
     name = "About"
     pageRef = "about"
     url = "/about/"
-    weight = 2
+    weight = 5
     identifier = "about"
-    [menu.main.params]
-      icon = "fa-regular fa-user"
-
-  [[menu.main]]
-    name = "About Alt"
-    pageRef = "about-alternative"
-    url = "/about-alternative/"
-    weight = 2
-    identifier = "about-alternative"
     [menu.main.params]
       icon = "fa-solid fa-user"
 
@@ -302,7 +330,7 @@ theme = 'minimal-black'
     name = "Projects"
     pageRef = "projects"
     url = "/projects/"
-    weight = 3
+    weight = 6
     identifier = "projects"
     [menu.main.params]
       icon = "fa-regular fa-folder-open"
@@ -311,7 +339,7 @@ theme = 'minimal-black'
     name = "Blog"
     pageRef = "blog"
     url = "/blog/"
-    weight = 4
+    weight = 7
     identifier = "blog"
     [menu.main.params]
       icon = "fa-regular fa-note-sticky"
