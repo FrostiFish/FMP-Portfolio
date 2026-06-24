@@ -1,6 +1,6 @@
 +++
 title = "The Sound of Smart Things"
-description = "A sonic imagining of the Lucid Bar of the future"
+description = "A sonic imagining of the Lucid Bar of the future."
 date = '2026-06-18T09:00:00+02:00'
 draft = false
 categories = ["academic"]

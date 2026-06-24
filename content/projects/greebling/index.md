@@ -1,6 +1,6 @@
 +++
 title = "Greebling"
-description = ""
+description = "A texturing tool for Blender, embodied in a capacitive pressure sensing MIDI interface."
 date = '2026-06-19T09:00:00+02:00'
 draft = true
 categories = ["academic"]

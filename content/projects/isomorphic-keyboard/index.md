@@ -1,11 +1,11 @@
 +++
 title = "Isomorphic Keyboard"
-description = "A summer project that got out of hand. A MIDI keyboard with hexagonal keys and polyphonic aftertouch"
+description = "A summer project that got out of hand. A MIDI keyboard with hexagonal keys and polyphonic aftertouch."
 date = '2026-06-19T09:00:00+02:00'
 draft = false
 categories = ["extracurricular"]
 tags = ["Extracurricular"]
-subtitle = ""
+subtitle = "Hall-effect Switch MIDI Keyboard"
 icon = "fa-solid fa-hexagon"
 stack = ["RP2040", "C", "MIDI", "Hall-effect sensing", "Extracurricular"]
 featured = false

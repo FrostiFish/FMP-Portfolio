@@ -1,6 +1,6 @@
 +++
 title = "Sonable"
-description = ""
+description = "Preparation for FMP, exploring and realizing 3D Hall-effect sensing for MIDI interfaces."
 date = '2026-06-19T09:00:00+02:00'
 draft = false
 categories = ["academic"]
