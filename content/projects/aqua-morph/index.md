@@ -7,14 +7,14 @@ categories = ["academic"]
 tags = ["digital-fabrication", "soft-robotics", "hydrogel", "fdm-3d-printing", "research-through-design", "M11 Design Project"]
 subtitle = "TEI '25 — design method for shape-changing hydrogel structures"
 icon = "fa-solid fa-droplet"
-stack = ["TPU"]
+stack = ["M11", "MDD", "TPU"]
 website = "https://dl.acm.org/doi/10.1145/3689050.3704421"
 websiteLabel = "Paper"
 websiteIcon = "fa-solid fa-file-lines"
-featured = false
+featured = true
 +++
 
-## Aqua-Morph
+## Abstract
 
 <!-- SUGGESTION: based on the verified paper abstract. Edit to match how you'd describe it yourself. -->
 

@@ -11,7 +11,7 @@ stack = ["RP2040", "C", "MIDI", "Hall-effect sensing", "Extracurricular"]
 featured = false
 +++
 
-## Isomorphic Keyboard
+## Demo Videos
 
 <video controls preload="metadata" width="100%">
   <source src="iso-keyboard-demo.mp4" type="video/mp4">

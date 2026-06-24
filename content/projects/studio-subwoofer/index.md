@@ -11,7 +11,7 @@ stack = ["WinISD", "Fusion 360", "Extracurricular"]
 featured = false
 +++
 
-## Studio Subwoofer
+## Photos
 
 ![finished subwoofer](finished-sub.jpg)
 ![unpainted box](unpainted-box.jpg)

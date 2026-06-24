@@ -11,7 +11,7 @@ stack = ["Raspberry Pi Pico 2", "MLX90395", "Fusion 360", "Arduino", "C++", "Pla
 featured = false
 +++
 
-## Sonable
+## Abstract
 
 This project introduces a modular system of compliant mechanisms that enable users to build their own digital musical interfaces. 
 Through 3D hall-effect sensing, each module can detect how much it is deformed in three dimensions. Possible deformation types include but are

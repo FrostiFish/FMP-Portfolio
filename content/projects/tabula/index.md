@@ -8,17 +8,29 @@ tags = ["thesis", "deformable-interfaces", "embedded-electronics", "music", "hal
 subtitle = "Master's thesis — a deformable interface for musical expression"
 icon = "fa-solid fa-wave-square"
 stack = ["Raspberry Pi Pico 2", "MLX90395", "Fusion 360", "Arduino", "PlatformIO", "Foaming TPU"]
-featured = false
+featured = true
 +++
 
 <!-- SUGGESTION: adapted from your Vision & Identity page. Replace/expand with your own write-up,
      methodology detail, and process photos. -->
 
-Tabula is the deformable musical interface I designed and built for my master's thesis. It uses high-resolution 3D hall-effect sensing to capture fine motor skill, and entangles multiple sound parameters into a single deforming device, so that one gesture reshapes several dimensions of sound at once.
+## Abstract
 
-The project grew out of a frustration: after years of playing electric guitar, producing electronic music felt closer to video editing than to playing an instrument. Tabula asks what it would take for a digital instrument to carry the same continuous, physical expressiveness as bending a guitar string.
+This work explores how deformable interfaces can be used as expressive tools used by electronic musicians.
+Deformable and shape-changing interfaces have become an increasingly popular area of research within design/HCI
+communities, yet many of this work focusses on either technical actuation or taxonomies of deformation and interaction. For
+this project, responsive flexible MIDI interfaces were created through combining 3D-printed compliant mechanisms with halleffect
+sensing, resulting in the final design outcome Tabula. Three design iterations were developed through co-creation sessions
+with two expert musicians with a background in electronic music, which through making and semi-structured interviews, allowed
+for gathering of early stage insights into musical expressivity. The findings show that a deformable interface that entangles two
+or more sound parameters into a multi-axis physical deformation grants the musician expressivity through facilitating fine-motor
+skills. As well as enabling for surprising sonic outcomes through playful engagement. Furthermore, the investigation also
+highlights how an accessible fabrication method, in this case filament based 3D-printing, can be used to rapidly prototype
+circuit boards and compliant mechanisms. Tabula has potential as music performance tool both in the studio and live. Beyond
+music it can also transfer into other contexts, such as gaming and mobility.
 
-I built and tested Tabula through a co-creation design process, using it to answer a question I needed to answer concretely rather than theoretically: what does musical expressivity actually mean for an interface like this? The definition that came out of the work is a case study specific to deformable interfaces, not a universal one, but it's one I can defend, because I built and tested the thing myself.
+![Cover](Cover.jpg)
+![Demo Day Setup](Demo-Day-Setup.jpg)
 
 <video controls preload="metadata" width="100%">
   <source src="Tabula-Feedback-Sends-encoded.mp4" type="video/mp4">
