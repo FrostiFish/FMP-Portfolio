@@ -2,7 +2,7 @@
 title = "Studio Subwoofer"
 description = "A DSP subwoofer for studio use. Designed around a simulated model to achieve a specific frequency response."
 date = '2026-06-19T09:00:00+02:00'
-draft = true
+draft = false
 categories = ["extracurricular"]
 tags = ["Extracurricular"]
 subtitle = "250 Watt DSP enabled"
