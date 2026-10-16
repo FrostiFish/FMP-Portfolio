@@ -27,11 +27,15 @@ or more sound parameters into a multi-axis physical deformation grants the music
 skills. As well as enabling for surprising sonic outcomes through playful engagement. Furthermore, the investigation also
 highlights how an accessible fabrication method, in this case filament based 3D-printing, can be used to rapidly prototype
 circuit boards and compliant mechanisms. Tabula has potential as music performance tool both in the studio and live. Beyond
-music it can also transfer into other contexts, such as gaming and mobility.
+music it can also transfer into other contexts, such as gaming and mobility.  
+  
+All 3D models were made to be printed with FDM machines. The flexible mechanisms are made out of foaming TPU, which is a durable material, but also provides pleasant haptics feedback. Tabula's circuit board was 3D printed, which is a relatively new development to come out of online maker communities.
+For more details about the fabrication process and the co-creation procedure, please read the [report](./M22_Final%20report_Eikens_HLL_Tabula.pdf).
 
 ![Cover](Cover.jpg)
 ![Demo Day Setup](Demo-Day-Setup.jpg)
-
+![Tabula PCB](Tabula-PCB-Finished.jpg)
+![Pressure Pad](Pressure-Pad.jpg)
 <video controls preload="metadata" width="100%">
   <source src="Tabula-Feedback-Sends-encoded.mp4" type="video/mp4">
   Your browser doesn't support embedded video. <a href="tabula-feedback-sends.mp4">Download the clip</a> instead.
