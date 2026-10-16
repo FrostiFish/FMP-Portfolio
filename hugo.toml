@@ -238,7 +238,7 @@ theme = 'minimal-black'
   # Social Links
   [[params.social]]
     label = "Instagram"
-    url = "https://www.instagram.com/hannah.3dp/"
+    url = "https://www.instagram.com/hannah.eikens/"
     icon = "fa-brands fa-instagram"
 
   [[params.social]]
